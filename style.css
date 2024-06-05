@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #070707;
+  font-family: "Albert Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navigator {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #f2faf8;
+}
+
+#social_media {
+  width: 30px;
+  margin: 10px;
+}
+
+#logozdjecie {
+  height: 100px;
+}
+
+#lupa {
+  display: flex;
+  align-items: center;
+}
+
+#search {
+  border: 1px solid #f2faf8;
+  border-radius: 5px;
+}
+
+#searching {
+  width: 10px;
+  height: 10px;
+}
+
+main {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.higher {
+  display: flex;
+  justify-content: space-between;
+}
+
+#reklama1 {
+  background-color: #506453;
+  width: 100px;
+  height: 649px;
+  position: absolute;
+  left: 0;
+  top: 175px;
+}
+#reklama2 {
+  background-color: #506453;
+  width: 100px;
+  height: 649px;
+  position: absolute;
+  right: 0;
+  top: 175px;
+}
+a {
+  text-decoration: none;
+  color: #070707;
+}
+a:hover {
+  color: #e773b5;
+}
+#FAQ,
+#PRACOWNICY {
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-family: "Playfair Display", serif;
+  margin-bottom: 15px;
+  color: #e773b5;
+}
+h2 {
+  font-family: "Playfair Display", serif;
+  margin-bottom: 15px;
+  color: #070707;
+}
+
+#FAQ {
+  margin-bottom: 25px;
+}
+
+#profilowe_zosia_zdj {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+li,
+ul,
+ol {
+  list-style: none;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.zdjeciagaleryjne a img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #f2faf8;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+
+footer,
+#lewaczesc,
+#srodek,
+#prawaczesc {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: 5px;
+  height: auto;
+}
